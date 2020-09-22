@@ -10,12 +10,10 @@ public class Animal {
         this.quantidadeDeMembros = quantidadeDeMembros;
         this.peso = peso;
     }
-
-
-//    public void movimentoAnimal(){
-//
-//    }
-//    public String emitirSom(){
-//        return emitirSom();
-//    }
+    public void emitirSom(){
+        System.out.println("som animal");
+    }
+    public void movimentoAnimal(){
+        System.out.println("Movimento animal");
+    }
 }
