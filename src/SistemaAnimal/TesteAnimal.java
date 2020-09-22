@@ -4,11 +4,8 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.Scanner;
 
-public class TesteAnimal extends Animal{
+public class TesteAnimal {
     Scanner leitor = new Scanner(System.in);
-    public TesteAnimal( int idade, int quantidadeDeMembros, double peso){
-        super(idade, quantidadeDeMembros, peso);
-    }
 
     public static void main(String[] args) {
 
